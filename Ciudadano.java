@@ -1,17 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package central.negocio;
+package registraduria.negocio;
 
 import java.util.Date;
 
 /**
  *
- * @author Breiner Mamian
+ * @author libardo
  */
 public class Ciudadano {
+
     private String cedula;
     private String nom;
     private String ape;
@@ -95,5 +91,5 @@ public class Ciudadano {
     public void setFechaNac(Date edad) {
         this.fechaNac = edad;
     }
-    
+
 }
